@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02Bootstrap</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/travel_ico.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Travel - сервис для бронирования туров онлайн с круглосуточной службой поддержки">
+    <meta name="keywords" content="travel,world,">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+  <a class="navbar-brand" href="#"><img src="img/logo-small.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home<span class="sr-only">(текущая)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#servises">Servises</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gallery
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="places.html">Places</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#billing">Billing </a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--  header-->
+   <header class="header position-absolute text-center container-fluid">
+        <img src="img/logo-big.png" alt="">
+        <h1 class="display-1">Travel</h1>
+       <button type="button" class="btn btn-info">Info</button>
+       <button type="button" class="btn btn-outline-light">Light</button>
+   </header>
+<!--   video-->
+    <video autoplay loop muted poster="video/sea.PNG">
+        <source src="video/Blue-Sea.mp4">
+    </video>
+<!--section.anons-->
+    <section class="anons">
+        <div class="container">
+           <h2 class="text-center pb-5">Popular destinations</h2>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                  <img src="img/beach-01.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Maldives</h5>
+                    <p class="card-text">The Maldives is unlike any beach destination you'll experience. This tropical paradise features 22 ring-shaped atolls made up of approximately 1,200 islands, with each beach more beautiful than the last.  </p>
+                    <a href="#" class="btn btn-info">Read more</a>
+                  </div>
+                </div>                    
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                  <img src="img/beach-02.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Crete</h5>
+                    <p class="card-text">Sometimes overlooked by travelers in favor of other Greek islands, Crete is home to several incredible beaches. Beachgoers will find pink-hued sands that pop against the bright blue sea at Elafonisi beach. </p>
+                    <a href="#" class="btn btn-info">Read more</a>
+                  </div>
+                </div>                     
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                  <img src="img/beach-03.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bora Bora</h5>
+                    <p class="card-text">This French Polynesian island is small but mighty. Measuring only 6 miles long and less than 3 miles wide, every inch of Bora Bora is packed with stunning beaches, green jungles and ritzy resorts with overwater bungalows. </p>
+                    <a href="#" class="btn btn-info">Read more</a>
+                  </div>
+                </div>                     
+                </div>
+            </div>
+        </div>
+    </section>
+<!--section.img1-->
+   <section class="img1">
+       
+   </section>
+ <section class="promotion">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <h3>Maldives</h3>
+                  <p>The Maldives is unlike any beach destination you'll experience. This tropical paradise features 22 ring-shaped atolls made up of approximately 1,200 islands</p>
+                  <p>Sail off into the sunset on the most romantic nautical getaway or go on a private overnight cruise on ESCAPE.</p>
+                  <button type="button" class="btn btn-info">About</button>
+                  
+              </div>
+              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+               <iframe width="100%" height="450" src="https://www.youtube.com/embed/61rwGtKN8aI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="travel-iteam" id="servises">
+      <div class="container">
+       <h2 class="text-center pb-5">Servises</h2>
+        <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="container-icon">
+                      <img src="img/travel_passport_and_ticket_adventure.png" alt="">
+                      <h4>Passport and ticket</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div>
+                  <div class="container-icon">
+                      <img src="img/travel_journey_tourism.png" alt="">
+                      <h4>Journey tourism</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div>
+                  <div class="container-icon">
+                      <img src="img/travel_restaurant_adventure.png" alt="">
+                      <h4>Restaurant adventure</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                 <div class="container-icon">
+                      <img src="img/travel_boat_adventure.png" alt="">
+                      <h4>Boat adventure</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div>
+                    <div class="container-icon">
+                      <img src="img/travel_globe_adventure.png" alt="">
+                      <h4>Globe adventure</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div>
+                  <div class="container-icon">
+                      <img src="img/travel_ticket_adventure.png" alt="">
+                      <h4>Ticket adventure</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque.</p>
+                  </div> 
+              </div>
+        </div>
+      </div>
+  </section>
+<section class="img2"></section>
+<!--  section.billing-->
+<section class="billing" id="billing">
+    <div class="container">
+        <form action="#">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                   <h3>Billing Address</h3>
+                    <label for="fname"><i class="far fa-user"></i> Full Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Name">
+                    
+                    <label for="email"><i class="far fa-envelope"></i> Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    
+                    <label for="adr"><i class="fas fa-map-marker-alt"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="Ovodova. 22">
+                    
+                    <label for="city"><i class="far fa-building"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Vinnytsia">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <label for="country"><i class="fas fa-university"></i> Country</label>
+                            <input type="text" id="country" name="country" placeholder="Ukraine">
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <label for="zip">Zip</label>
+                            <input type="text" id="zip" name="zip" placeholder="10001"> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="payment-container">
+                        <i class="fab fa-cc-visa" style="color: #362ac3"></i>
+                        <i class="fab fa-cc-mastercard" style="color: #e21b1b"></i>
+                        <i class="fab fa-cc-apple-pay" style="color: #807c71"></i>
+                        <i class="fab fa-cc-paypal" style="color: #1bb4e2"></i>
+                    </div>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="Name">
+                    
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="111-222-333">
+                    
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                   
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <label for="expyear">Exp Year</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2021">  
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+            <button type="button" class="btn btn-info">Continue to checkout</button>
+        </form>
+    </div>
+</section>
+
+<section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4079536.679180328!2d70.99055118154834!3d3.1151952792990354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x24b599bfaafb7bbd%3A0x414509e181956289!2z0JzQsNC70YzQtNGW0LLQuA!5e0!3m2!1suk!2sua!4v1614869595783!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!--  footer-->
+   <footer class="bg-dark text-light pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <h4>About us:</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores architecto rerum, doloribus molestias sunt accusamus?</p>  
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+               <h4>Contacts:</h4>
+               <p><a href="https://g.page/new-it-school?share" target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a></p>
+               <p><a href="viber://chat?number=%2B380930230539"><i class="fab fa-viber"></i> Viber</a></p>
+               <p><a href="tg://resolve?domain=MoonManich"><i class="fab fa-telegram-plane"></i> Telegram</a></p>
+               <p><a href="tel:+380930230539"><i class="fas fa-mobile-alt"></i> Tell +380930230539</a></p>
+               <p><a href="mailto:mail@example.com"><i class="far fa-envelope"></i> E-mail: example@mail.com</a></p>
+               <p><a href="https://www.messenger.com/t/jack.malbon.3" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a></p> 
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <h4>Follow me:</h4>
+                <p><a href="https://www.instagram.com/moonmanich/" target="_blank"><i class="fab fa-instagram"> Instagram</i></a></p>
+                <p><a href="https://www.facebook.com/new.it.school/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></p>
+                <p><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i> Pinterest</a></p>
+                <p><a href="https://www.behance.net/vadim-vits" target="_blank">  <i class="fab fa-behance"></i> Behance</a></p>
+                
+                </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+               <h4>Link:</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque soluta incidunt totam, mollitia, beatae rem.</p> 
+            </div>    
+            </div>
+        </div>
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+    
+<!--script    -->
+<script src="js/totop.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
